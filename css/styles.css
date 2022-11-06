@@ -224,6 +224,17 @@ p {
     width: 270px;
  }
 
+ .features-icon-item{
+    height: 120px;
+    width: 270px;
+    border-radius: 4px;
+    background-color: var(--team-color-bg);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
 .features-title {
     margin-bottom: 10px;
     margin-top: 0;

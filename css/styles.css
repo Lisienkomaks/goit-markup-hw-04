@@ -304,16 +304,8 @@ p {
 .social-item{
     width: 44px;
     height: 44px;
-    background-color: var(--text-white-color);
     margin-right: 10px;
-    border-radius: 50%;
     fill: var(--icon-color);
-}
-
-.social-item:hover,
-.social-item:focus {
-    background-color: var(--accent-color);
-    fill: var(--text-white-color);
 }
 
 .social-item:last-child{
@@ -326,6 +318,14 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
+    background-color: var(--text-white-color);
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--text-white-color);
 }
 
 .social-icon{

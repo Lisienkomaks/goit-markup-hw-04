@@ -125,12 +125,29 @@ p {
     margin-left: auto;
 }
 
+.auth-nav .item{
+    display: flex;
+    align-items: center;
+}
+
+.mail-icon{
+    display: flex;
+    margin-right: 10px;
+    height: 16px;
+    width: 12px;
+    fill: #000000;
+}
+
+
+
 .auth-nav .item + .item {
     margin-left: 50px;
 }
 
 .auth-nav .link {
-    color: var(--primaty-text-color)
+    color: var(--primaty-text-color);
+    display:flex;
+    align-items: center;
 }
 
 .auth-nav .link:hover,

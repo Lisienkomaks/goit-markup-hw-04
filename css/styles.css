@@ -513,6 +513,7 @@ p {
 
 .footer-container{
     display: flex;
+    align-items: baseline;
 }
 
 .addres-group{
@@ -571,6 +572,15 @@ p {
  .address-tel .link:hover,
  .address-tel .link:focus {
     color: var(--accent-color);
+ }
+
+ .social-discription{
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-white-color);
  }
 
  .footer-social-icon-group{

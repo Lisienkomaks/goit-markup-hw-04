@@ -130,7 +130,7 @@ p {
     align-items: center;
 }
 
-.mail-icon{
+.mail-icon, .tel-icon{
     margin-right: 10px;
     fill: currentColor;
     width: 16px;

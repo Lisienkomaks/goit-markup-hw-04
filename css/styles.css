@@ -305,7 +305,7 @@ p {
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    fill: var(--icon-color);
+   
 }
 
 .social-item:last-child{
@@ -320,17 +320,19 @@ p {
     justify-content: center;
     border-radius: 50%;
     background-color: var(--text-white-color);
+    color: var(--icon-color);
 }
 
 .social-icon-link:hover,
 .social-icon-link:focus {
     background-color: var(--accent-color);
-    fill: var(--text-white-color);
+    color: var(--text-white-color);
 }
 
 .social-icon{
     fill: currentColor;
 }
+
 
 .team-title {
     margin-bottom: 50px;

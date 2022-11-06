@@ -131,11 +131,10 @@ p {
 }
 
 .mail-icon{
-    display: flex;
     margin-right: 10px;
-    height: 16px;
-    width: 12px;
-    fill: #000000;
+    fill: currentColor;
+    width: 16px;
+    height: 12px;
 }
 
 
